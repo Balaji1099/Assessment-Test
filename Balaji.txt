@@ -1,0 +1,355 @@
+Manual Testing:
+
+1. "Write a Bug Report for a bug in the Whatsapp mobile application that is preventing users from sending video files in group chats.(Critical bug)
+ (Note: Consider that this workflow is working fine in private chat)"
+
+==> Reproducing Bug:
+    1. Open WhatsApp
+    2. Select any group on your whatsapp account
+    
+    Actual Result:
+     Users can select a set of videos or a single video, and send it to a WhatsApp group, and those videos could not able to send in WhatsApp groups, but in private chats, the video will be sent successfully.
+
+    Expected Result:
+     The video should not work only in private chat, in the groups also the videos should be sent the groups
+
+2.Write a bug report for a bug in the login page that the submit button is not working.(critical bug)
+
+==> Reroducing Bug:
+    1. Open FaceBook
+    2. Enter User Name and Password
+    3. Enter the submit button
+
+    Actual Result:
+     Users can enter a UN and Pwd in Facebook, after that user can click submit button, at that time the submit button is not working so could not able to login the Facebook.
+
+    Expected Result:
+     Submit button should be work
+
+3.Write a bug report for any scenario of your own in wats app
+     
+==> Reproducing Bug:
+    1. Open WhatsApp
+    2. Select any one of the friend on whatsapp
+    
+    Actual Result:
+    User can click a video call logo in private chat page, on that time the video call is not working.(Critical bug)
+
+    Expected Result:
+     Once the user clicks the video logo, the video camera should open.
+
+4.Write a few testcases for booking tickers in redbus.
+==>    Verify www.redbus.in ticket ticket booking website is loading properly or not.
+       Enter from, To, Date and click on Search Buses
+       Click on view seat below fare.
+       Verify user is able to see available seats in a bus.
+       Verify User is able to select single or more than one seat.
+       Verify by trying payment from different types of payment mode.
+       A new popup window appears where user can select the seat of their choice.
+       Here the seats which are already reserved will be disabled.
+       I want to capture the seats which are available for booking in excel or data table.
+       Verify when user should not be able to cancel the ticket after the bus has left the station.
+
+5.Write a bug report for profile picture not updated in whatsapp.(Critical bug)
+==> Reproducing Bug:
+    1. Open WhatsApp
+    2. Goto settings select profile and edit profile photo
+
+    Actual Result:
+    Users delete the old photo, select a new photo, and update that photo on the profile page, at that time the photo could not able to be updated on the profile page.
+
+    Expected Result:
+     The delete button should work and once the user directly changes to a photo in the camera or gallery, the latest or selected photo must be displayed on the profile page.
+
+6.Write a Bug Report for a bug in the Amazon website that is preventing users from adding Electronic items in the cart.(Critical bug)
+==>  Reproducing Bug:
+    1. Open Amazon website
+    2. Goto the Electronic item page
+
+    Actual Result:
+    Users select some set of products on the electronic page and the user wants to add them to the cart, but the product is could not able to add to the cart.
+
+    Expected Result:
+     Once the user can select the products and want to add them to the cart, that items must be added to the cart page.
+
+7.Write any 5 Negative testcases.
+   1.Enter characters that are not allowed in an input field(Special char in first name banking site)
+   2.Attempt to submit without any text in a required field.(The message about the field requirements is displayed.
+   3.Use an invalid URL for a button link(www.facebaak.xom)
+   4.Amount allowed negative values(-100)
+   5.Entering correct username and incorrect password(but login successsfully)
+
+8.Write a few test cases for the IRCTC Web Application.
+==> Verify the username and password are correct or not, Once UN and PWD are different the application should not login.
+    Verify user should not be able to purchase ticket if he is not login to application.
+    Verify https://www.railyatri.in/train-ticket ticket booking website is loading properly or not.
+    Verify on filling train details like From station, To station, Departure date, list of available trains are displayed.
+    Verify that users can search for trains by name, from-to station for checking their status and timings.
+    Verify that search results have train details, timings and availability.
+    Verify user is able to see available seats in a train.
+    Verify User is able to select single or more than one seat.
+    Verify once the user has booked the ticket then he can download the ticket.
+    Verify user should receive SMS or mail after successfully booking of ticket.
+    Verify when user should not be able to cancel the ticket after the train has left the station.
+    Verify by trying payment from different types of payment mode.
+
+9.Write a few test cases for the SpiceJet Web Application.
+==> Verify that the SpiceJet home page is accessible to the user.
+Verify that clicking on the header links the page is navigated to an appropriate page.
+Verify that place the mouse pointer over the login guest login section is displayed to the user.
+Verify that clicking on “View our latest schedules” link the page is navigated to SpiceJet schedules page.
+Verify that clicking on “route map” located below the the SpiceJet main banner, displays SpiceJet route map.
+Verify that clicking on “online check-in” located below the SpiceJet main banner, navigated to “online check-in” page.
+Verify the the content on “new connections” banner.
+Verify that the the content on the “testimonials” banner is proper.
+Verify that the content in book a flight component in home page.
+
+10.Create 10 test case for amazon Website view
+==> Enter Valid Username and Valid Password.
+    Enter Valid Username and Invalid Password.
+    Enter Invalid Username and Valid Password.
+    Enter Invalid Username and Password.
+    Keep one field blank, either username or password, and check login.
+    Click on “Forgot Password” Link and find out forgot password page.
+    Verify user should receive SMS or mail after successfully login.
+    Click on Create new account button and verify if it takes to new account page.
+    Select “Keep me signed in” option to retain login session.
+    Check cart page is displayed or not.
+    Check payment option is display or not.
+    Verify by trying payment from different types of payment mode.
+
+12.Create 10 test cases for amazon mobile view
+==> Check the amazon logo is displayed or not in front page.
+    Enter Valid Username and Valid Password.
+    Enter Valid Username and Invalid Password.
+    Enter Invalid Username and Valid Password.
+    Enter Invalid Username and Password.
+    Keep one field blank, either username or password, and check login.
+    Check the category is accessable or not.
+    Check mic is working is not.
+    Check amazon lens is working is not and scanning is working or not.
+    Check search input filed is working or not(eg.iphone11).
+    Check in account, ordered histry is displayed or not.
+    Check username is displayed or not in account page.
+    Check Address is displayed or not(Address page).
+
+13.Create 10 Bug report for amazon website and mobile view
+==> 1.Actual Result:
+       The user Enter a UN and PWD and pressed a login button. after that page will be displayed  blank.
+      Expected Result:
+       Once the user login the page, home page must be displayed.
+    2.Actual Result:
+       User entering a invalid password and entering a login button, they home page will be displayed but error message is displayed correctly(invalid password).
+      Expected Result:
+       Once the user enters the invalid password, the home page should not be displayed(login page should be displayed)
+    3.Actual Result:
+       User click a mic icon and speak on that mic, but the product has not displayed.
+      Expected Result:
+       Once user a speak with a mic(iphone), that product must be displayed.
+    4.Actual Result:
+       User type something in search input filed but could not able to type on that.
+      Expected Result:
+       Input field must work.
+    5.Actual Result:
+       User click last slide page, on the page prime tab displayed, but user could not able to click on that(Click option not working)
+      Expected Result:
+       Once user click the prime tab, prime must open or expend.
+    6.Actual Result:
+       User click Amazon pay tab, onthat amazon pay balance tab is not dispplayed in mobile view, same that displayed in website.
+      Expected Result:
+       In both view website and mobile, amazon pay must be displayed.
+    7.Actual Result:
+        User booking a train ticket in amazon, so goto the book tickets page and select train. Searching a tarins from (from station) to (to station) and click find trains buutton, on that time find trains button is not working.
+      Expected Result:
+        Find trains button must be work, then only users can find a train and help our application for user.
+
+Automation Testing:
+
+1.Write code for handling multiple windows:
+    
+    package windowHandling;
+    import java.util.ArrayList;
+    import java.util.List;
+    import java.util.Set;
+    import org.openqa.selenium.By;
+    import org.openqa.selenium.WebDriver;
+    import org.openqa.selenium.chrome.ChromeDriver;
+
+    public class MultipleWindows {
+	public static void main(String[] args) throws InterruptedException {
+	    System.setProperty("webdriver.chrome.driver","C:\\Users\\ELCOT\\Desktop\\chromedriver.exe");
+	    //initiate driver
+		WebDriver driver = new ChromeDriver();
+		String windowHandle = driver.getWindowHandle();
+		driver.manage().window().maximize();
+		driver.get("https:XXX/Window.html");
+		System.out.println(driver.getWindowHandles());
+		driver.findElement(By.id("home")).click();
+		Thread.sleep(2000);
+		//Set<String> windowHandles = driver.getWindowHandles();
+		//List<String> ls = new ArrayList<String>(windowHandles);
+		List<String> li = new ArrayList<String>(driver.getWindowHandles());
+		System.out.println(li.get(0));
+		System.out.println(li.get(1));
+		driver.switchTo().window(li.get(1));
+		driver.findElement(By.xpath("//h5[text()='Edit']")).click();
+	}
+}
+
+2.Write code for positive and negative scenarios for Alerts
+
+package Dropdown;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class popupmessage {
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		//set driver path
+	    System.setProperty("webdriver.chrome.driver","C:\\Users\\ELCOT\\Desktop\\chromedriver.exe");
+	    //initiate driver
+		WebDriver driver = new ChromeDriver();
+		//hit URL
+		driver.get("https://XXX/Alert.html");
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//button[text()='Alert Box']")).click();
+		Thread.sleep(2000);
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//button[text()='Confirm Box']")).click();
+	}
+}
+
+4.Write code for handling Frames
+
+How to handle: 
+   String handle = driver.getWindowhandle();
+   driver.switchTo().window(handle);
+
+Frames:
+   Frames are inner Document created in webpages.
+   Document will attach to window using iframe tag.
+   Handle to handle:
+     driver.switchTo().frame(index);
+     driver.switchTo().frame(name/id);
+     driver.switchTo().frame(WebElement);
+
+Code:
+
+    public class popupmessage {
+	public static void main(String[] args) throws InterruptedException {
+        driver.manage().window().maximize();
+        driver.navigate.to("https://XXX/Alert.html");
+        Thread.sleep(2000);
+        //switch to frame based on the index
+        driver.switchTo().frame(0);
+        driver.findElement(By.id("click")).click;
+}}
+  
+5.Select multiple options from the dropdown
+               //Click on the option to select or manually to select xpath
+		driver.findElement(By.id("dropdown1")).click();
+		driver.findElement(By.xpath("//select[@id='dropdown1')//option[text()='Loadrunner']")).click();
+		
+		WebElement findElement = driver.findElement(By.id("dropdown1"));
+		//WebElement findElement2 = driver.findElement(By.id("dropdown2"));
+		//WebElement findElement3 = driver.findElement(By.id("dropdown3"));
+		
+		// 1.select dropdown by Index
+		new Select(findElement).selectByIndex(3);
+		Thread.sleep(2000);
+		
+		// 2.select dropdown by visibleText
+		new Select(driver.findElement(By.name("dropdown2"))).selectByVisibleText("Selenium");
+		Thread.sleep(2000);
+		
+		// 3.select dropdown by value
+	  //  new Select(driver.findElement(By.id("dropdown3"))).selectByValue("3");
+	
+	    //create seperate function to select dropdown
+	  //  selectDrop(findElement).selectByIndex(0);
+	}
+	
+}
+
+6.How to do file upload in Selenium?
+       package Nalan;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Upload {
+	public static void main(String[] args) throws InterruptedException, AWTException {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\ELCOT\\Desktop\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//hit URL
+		driver.get("https://dev.nalan.io");
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("xxx");
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("yyy");
+		driver.findElement(By.xpath("//span[text()='Login']")).click();
+		Thread.sleep(3000);
+		driver.get("https://dev.nalan.io/claims/submissions/upload");
+		Thread.sleep(3000);
+	    WebElement findElement = driver.findElement(By.xpath("//span[@class='ant-upload ant-upload-btn']"));
+	    
+	    Thread.sleep(6000);
+	    Actions act = new Actions(driver);
+	    act.click(findElement).perform();
+	    Thread.sleep(5000);
+	    StringSelection upload = new StringSelection("C:\\Users\\ELCOT\\Documents\\excell\\ClaimSubmissionTemplate.xlsx");
+	    Toolkit.getDefaultToolkit().getSystemClipboard().setContents(upload, null);
+	    
+	    Robot rb = new Robot();
+	    rb.delay(3000);
+	    rb.keyPress(KeyEvent.VK_CONTROL);
+	   // rb.keyRelease(KeyEvent.VK_CONTROL);
+	    rb.keyPress(KeyEvent.VK_V);
+	    rb.keyPress(KeyEvent.VK_ENTER);
+	    
+}
+}
+		
+7.Write test scenario for Credit Cards
+==>   Check that the bank name of the credit card
+      Check that the bank logo is properly displayed on the credit card or not
+      Verify that the credit card number is properly displayed or not
+      Verify that maximum credit limit on credit card
+      Verify that the maximum withdrawal limit of credit card payment
+      Verify that credit card transaction with valid PIN numbers
+      Verify that the expiry date is properly displayed or not
+      Verify that the CVV number should be displayed on the backside of the credit card.
+      Verify that the cardholder’s name should be displayed properly.
+      Check that the color of the credit card
+      Check that weight of the credit card
+      
+8.How to find more than one web element in the list?
+    findElements() command in WebDriver can be used to find more than one web elements and save them into a list. 
+
+         // Storing the element in  list
+         List <WebElement> elementList = driver.findElements(By.xpath(""));
+
+         // Get the size of the list
+         int listSize = elementList.size();
+
+         for (int i=0; i<listSize; i++)
+          {
+          // iterate through element or perform any action
+           serviceProviderLinks.get(i).getText();
+          }      
+      
